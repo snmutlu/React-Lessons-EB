@@ -25,6 +25,9 @@ yakalayabiliriz.
 
 
 function Container({children}) {
+  /* Burada app componentimizden gelen product componentimizi container
+  componentinin içerisinde olduğu için children olarak yakalayabiliyor
+  ve aşağıdaki gibi istediğimiz yerde kullanabiliyoruz. */
     return (
       <div>
       <div>Container Componenti Çalıştı</div>
