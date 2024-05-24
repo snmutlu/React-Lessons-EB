@@ -7,6 +7,7 @@ function App() {
   const BASE_URL = "http://localhost:3000";
 
   const createUser = async (newUser)=>{
+    //! axios.post Yeni data girişi yapmak için kullanılır.
     const response = await axios.post(`${BASE_URL}/users`,newUser)
     console.log("response",response.data)
   }

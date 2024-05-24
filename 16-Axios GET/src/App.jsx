@@ -13,7 +13,7 @@ function App() {
 
   const getUserById = async (userId)=>{
     // const response = await axios.get(BASE_URL+"/users/"+userId)
-
+    //! axios.get Database'den bir veriyi çağırmak için kullanılır.
     //*Template litirals ile şu şekilde yapabiliriz. -->
     const response = await axios.get(`${BASE_URL}/users/${userId}`)
     
