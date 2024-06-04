@@ -4,6 +4,11 @@ import axios from 'axios';
 
 const BASE_URL = "http://localhost:3005";
 
+/* Json Server Kurulumu: Öncelikle sudo npm install -g json-server ile global olarak
+json serverimizi kuruyoruz. Sonrasında json-server --version ile kurulumu kontrol ediyoruz.
+Sonrasında json-server --watch ./src/db.json --port 3004 ile json serverimizin izleyeceği
+dosya yolunu ve çalışacağı portu vermiş oluyoruz. */
+
 function App() {
   
   const getAllUsers = async ()=>{
