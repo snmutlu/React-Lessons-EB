@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.todo-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.todo-create{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.todo-input{
+    box-sizing: border-box;
+    width: 95%;
+    margin: 10px 15px 0 0;
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 2px;
+
+}
+
+.create-btn{
+    box-sizing: border-box;
+    padding: 7px;
+    margin: 10px 15px 0 0;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.todo-wrapper{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.todo-content{
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+.icons{
+    font-size: 25px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+.remove-icons{
+    color: red;
+}
+
+.edit-icons{
+    color: yellow;
+}
+
