@@ -5,11 +5,11 @@ import { CiEdit } from "react-icons/ci";
 
 
 
-function Todo() {
+function Todo({todo}) {
     return (
         <>
         <div className='todo-wrapper'>
-            <div className='todo-content'>Ben ilk todoyum</div>
+            <div className='todo-content'>{todo.content}</div>
             <div className='icons'>
                 <CiSquareRemove className='remove-icons' />
                 <CiEdit className='edit-icons' />

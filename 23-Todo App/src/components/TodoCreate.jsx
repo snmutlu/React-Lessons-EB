@@ -6,6 +6,10 @@ function TodoCreate({onCreateTodo}) {
 
     const [newTodo , setNewTodo] = useState('');
 
+    const clearInput = ()=>{
+      setNewTodo("");
+    }
+
     const createTodo = ()=>{
         if(!newTodo) return alert("Bir değer giriniz");
 
@@ -15,6 +19,7 @@ function TodoCreate({onCreateTodo}) {
         }
 
         onCreateTodo(request);
+        clearInput();
     }
 
   return (

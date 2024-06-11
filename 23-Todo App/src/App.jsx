@@ -15,7 +15,7 @@ console.log(todos)
    <div className='app'>
    <div className='todo-app'>
    <TodoCreate onCreateTodo={createTodo}/>
-   <TodoList/>
+   <TodoList todos = {todos}/>
    </div>
    </div>
 
