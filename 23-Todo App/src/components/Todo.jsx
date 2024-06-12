@@ -5,13 +5,21 @@ import { CiEdit } from "react-icons/ci";
 
 
 
-function Todo({todo}) {
+function Todo({todo , onRemoveTodoPrp}) {
+
+    const {id,content} = todo;
+
+    const removeTodo = ()=>{
+        onRemoveTodoPrp(id)
+        console.log("Silinen todo:" , todo)
+    }
+
     return (
         <>
         <div className='todo-wrapper'>
-            <div className='todo-content'>{todo.content}</div>
+            <div className='todo-content'>{content}</div>
             <div className='icons'>
-                <CiSquareRemove className='remove-icons' />
+                <CiSquareRemove className='remove-icons' onClick={removeTodo} />
                 <CiEdit className='edit-icons' />
             </div>
         </div>

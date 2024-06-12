@@ -24,6 +24,9 @@ function TodoCreate({onCreateTodo}) {
 
   return (
     <div className='todo-create'>
+      <div className='header'>
+      <h2>TodoList</h2>
+      </div>
         <input 
         value={newTodo} onChange={(e)=>setNewTodo(e.target.value)}
         className='todo-input' type="text" placeholder='Todo Giriniz' />

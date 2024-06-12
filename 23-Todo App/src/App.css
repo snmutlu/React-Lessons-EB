@@ -21,8 +21,13 @@ body{
     justify-content: flex-start;
     width: 600px;
     height: 600px;
-    border: 1px solid black;
+    border: 3px solid black;
     overflow: scroll;
+    margin: 10px 0 10px 0;
+}
+
+.header{
+    align-self: center;
 }
 
 .todo-create{
@@ -84,13 +89,14 @@ body{
     font-size: 25px;
     margin-top: 7px;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 .remove-icons{
-    color: red;
+    color: #eb94a4;
 }
 
 .edit-icons{
-    color: yellow;
+    color: #d6ffeb;
 }
 
