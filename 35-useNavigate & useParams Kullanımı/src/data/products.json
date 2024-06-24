@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "Bilgisayar",
+        "price" : 50000,
+        "id" : "1"
+    },
+    {
+        "name" : "Telefon",
+        "price" : 25000,
+        "id" : "2"
+    },
+    {
+        "name" : "Televizyon",
+        "price" : 12000,
+        "id" : "3"
+    }
+]
